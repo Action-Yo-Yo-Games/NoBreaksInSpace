@@ -6007,3 +6007,28 @@ TestLevel20 (Other Actor)
 [2023.10.31-02.24.44:472][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 10.4 sec)
 [2023.10.31-02.24.44:475][863]AssetCheck: New page: Asset Save: BP_LevelLoader
 [2023.10.31-02.24.44:475][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Levels/BP_LevelLoader.BP_LevelLoader
+[2023.10.31-02.27.39:195][901]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.41:664][ 45]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.42:249][ 79]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Templates/OpenWorld.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Templates/OpenWorld.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.46:267][314]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/WorldPartitionUnitTest.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/WorldPartitionUnitTest.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.46:267][314]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/WPUnitTests.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/WPUnitTests.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.47:836][406]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.27.49:337][494]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/WorldPartitionUnitTest.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/WorldPartitionUnitTest.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-02.28.16:140][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-02.28.16:356][ 86]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_LevelLoader
+[2023.10.31-02.28.16:357][ 86]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/BP_LevelLoaderF8DBD5634484D0AA7ADCA6B67DB2C9DA.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/BP_LevelLoader.uasset'
+[2023.10.31-02.28.16:371][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 10.6 sec)
+[2023.10.31-02.28.16:374][ 86]AssetCheck: New page: Asset Save: BP_LevelLoader
+[2023.10.31-02.28.16:374][ 86]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Levels/BP_LevelLoader.BP_LevelLoader
+[2023.10.31-02.28.19:661][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-02.28.19:874][270]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_LevelLoader
+[2023.10.31-02.28.19:875][270]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/BP_LevelLoaderBF3016FA4D5707598AF0E79DC7DA0B93.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/BP_LevelLoader.uasset'
+[2023.10.31-02.28.19:891][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 230 ms (total: 10.9 sec)
+[2023.10.31-02.28.19:893][270]AssetCheck: New page: Asset Save: BP_LevelLoader
+[2023.10.31-02.28.19:893][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Levels/BP_LevelLoader.BP_LevelLoader
+[2023.10.31-02.28.26:142][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-02.28.26:334][630]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_LevelLoader
+[2023.10.31-02.28.26:335][630]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/BP_LevelLoader9D7968AF4CBF018BAE7C3F9C9FD14F4F.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/BP_LevelLoader.uasset'
+[2023.10.31-02.28.26:348][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 11.1 sec)
+[2023.10.31-02.28.26:351][630]AssetCheck: New page: Asset Save: BP_LevelLoader
+[2023.10.31-02.28.26:351][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Levels/BP_LevelLoader.BP_LevelLoader
