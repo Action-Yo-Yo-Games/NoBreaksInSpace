@@ -6334,3 +6334,180 @@ Script Stack (0 frames) :
 [2023.10.31-23.24.29:560][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 9.57 sec)
 [2023.10.31-23.24.29:565][806]AssetCheck: New page: Asset Save: SpiralCasino
 [2023.10.31-23.24.29:565][806]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/SpiralCasino.SpiralCasino
+[2023.10.31-23.25.13:496][149]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.10.31-23.25.13:536][149]LogContentBrowser: Creating deferred item: NewWorld
+[2023.10.31-23.25.13:555][150]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.10.31-23.25.18:522][443]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2023.10.31-23.25.18:693][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.25.18:693][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.25.18:698][443]LogContentBrowser: End creating deferred item NewWorld
+[2023.10.31-23.25.19:645][485]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.25.19:817][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.10.31-23.25.19:822][485]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/NewWorld
+[2023.10.31-23.25.19:822][485]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/NewWorld930E0C914739287F7228099EB16EBCFC.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/NewWorld.umap'
+[2023.10.31-23.25.20:076][485]LogFileHelpers: Saving map 'NewWorld' took 0.278
+[2023.10.31-23.25.20:084][485]LogFileHelpers: InternalPromptForCheckoutAndSave took 439 ms (total: 10.0 sec)
+[2023.10.31-23.25.20:085][485]AssetCheck: New page: Asset Save: NewWorld
+[2023.10.31-23.25.20:085][485]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/NewWorld.NewWorld
+[2023.10.31-23.25.21:142][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.10.31-23.25.21:144][546]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/Levels/NewWorld.NewWorld
+[2023.10.31-23.25.21:144][546]Cmd: MAP LOAD FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.31-23.25.21:144][546]LightingResults: New page: Lighting Build
+[2023.10.31-23.25.21:144][546]LoadErrors: New page: Loading map: NewWorld.umap
+[2023.10.31-23.25.21:190][546]LogWorld: UWorld::CleanupWorld for SpiralCasino, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.25.21:190][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.25.21:190][546]MapCheck: New page: Map Check
+[2023.10.31-23.25.21:190][546]LightingResults: New page: Lighting Build
+[2023.10.31-23.25.21:206][546]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-23.25.21:211][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.10.31-23.25.21:214][546]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.25.21:214][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.25.21:232][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.10.31-23.25.21:254][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.10.31-23.25.21:258][546]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewWorld'.
+[2023.10.31-23.25.21:258][546]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.25.21:258][546]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.25.21:259][546]LogAIModule: Creating AISystem for world NewWorld
+[2023.10.31-23.25.21:276][546]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.31-23.25.21:296][546]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.10.31-23.25.21:304][546]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.31-23.25.21:304][546]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.242ms to complete.
+[2023.10.31-23.25.27:104][871]LogContentBrowser: Attempting asset rename: NewWorld -> WinLevel
+[2023.10.31-23.25.28:330][871]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.25.28:519][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.10.31-23.25.28:526][871]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/WinLevel
+[2023.10.31-23.25.28:526][871]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/WinLevelAED618B442EED64F189B58AC8BC2578A.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/WinLevel.umap'
+[2023.10.31-23.25.28:806][871]LogFileHelpers: Saving map 'WinLevel' took 0.348
+[2023.10.31-23.25.28:813][871]LogFileHelpers: InternalPromptForCheckoutAndSave took 483 ms (total: 10.4 sec)
+[2023.10.31-23.25.29:218][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.10.31-23.25.29:239][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.10.31-23.25.29:263][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.10.31-23.25.29:499][871]SourceControl: rm 'Content/Blueprints/Levels/NewWorld.umap'
+[2023.10.31-23.25.29:508][871]AssetCheck: New page: Asset Save: WinLevel
+[2023.10.31-23.25.29:508][871]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/WinLevel.WinLevel
+[2023.10.31-23.25.40:920][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsRear.SportsCar_WheelsRear_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:920][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsFront.SportsCar_WheelsFront_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:920][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.SportsCar_Pawn_C has parent /Script/ChaosVehicles.WheeledVehiclePawn, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:920][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_WheelsRear.OffroadCar_WheelsRear_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:920][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_WheelsFront.OffroadCar_WheelsFront_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:921][518]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.OffroadCar_Pawn_C has parent /Script/ChaosVehicles.WheeledVehiclePawn, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:921][518]LogEditorClassViewer: Warning: Class /Game/Vehicles/SportsCar/SportsCar_AnimBP.SportsCar_AnimBP_C has parent /Script/ChaosVehicles.VehicleAnimationInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.40:921][518]LogEditorClassViewer: Warning: Class /Game/Vehicles/OffroadCar/Offroad_AnimBP.Offroad_AnimBP_C has parent /Script/ChaosVehicles.VehicleAnimationInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.10.31-23.25.59:442][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.25.59:701][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.10.31-23.25.59:708][562]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/WinLevel
+[2023.10.31-23.25.59:709][562]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/WinLevelC443A7D64C7F55512B883AB7CB0AF7E0.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/WinLevel.umap'
+[2023.10.31-23.25.59:724][562]LogFileHelpers: Saving map 'WinLevel' took 0.101
+[2023.10.31-23.25.59:739][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 297 ms (total: 10.7 sec)
+[2023.10.31-23.25.59:741][562]AssetCheck: New page: Asset Save: WinLevel
+[2023.10.31-23.25.59:741][562]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/WinLevel.WinLevel
+[2023.10.31-23.26.00:700][612]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.31-23.26.00:710][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.31-23.26.00:710][612]PIE: New page: PIE session: WinLevel (Oct 31, 2023, 11:26:00 AM)
+[2023.10.31-23.26.00:711][612]LogPlayLevel: Creating play world package: /Game/Blueprints/Levels/UEDPIE_0_WinLevel
+[2023.10.31-23.26.00:712][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001634s)
+[2023.10.31-23.26.00:713][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Levels/WinLevel.WinLevel to /Game/Blueprints/Levels/UEDPIE_0_WinLevel.WinLevel (0.001734s)
+[2023.10.31-23.26.00:740][612]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2023.10.31-23.26.00:742][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.26.00:742][612]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.26.00:743][612]LogAIModule: Creating AISystem for world WinLevel
+[2023.10.31-23.26.00:743][612]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2023.10.31-23.26.00:743][612]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.31-23.26.00:744][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.31-23.26.00:744][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.31-23.26.00:744][612]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.31-23.26.00:744][612]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.31-23.26.00:744][612]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.31-23.26.00:748][612]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.31-23.26.00:785][612]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Razer Nari Essential)
+[2023.10.31-23.26.00:786][612]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.31-23.26.00:786][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.31-23.26.00:786][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.31-23.26.00:788][612]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.10.31-23.26.00:788][612]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.10.31-23.26.00:791][612]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.10.31-23.26.00:791][612]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.10.31-23.26.00:791][612]LogInit: FAudioDevice initialized with ID 15.
+[2023.10.31-23.26.00:791][612]LogAudio: Display: Audio Device (ID: 15) registered with world 'WinLevel'.
+[2023.10.31-23.26.00:791][612]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.10.31-23.26.00:795][612]LogLoad: Game class is 'GameMode'
+[2023.10.31-23.26.00:796][612]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_WinLevel.WinLevel up for play (max tick rate 60) at 2023.10.31-17.26.00
+[2023.10.31-23.26.00:799][612]LogWorld: Bringing up level for play took: 0.003347
+[2023.10.31-23.26.00:802][612]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.10.31-23.26.00:804][612]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.10.31-23.26.00:804][612]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.10.31-23.26.00:804][612]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.10.31-23.26.00:805][612]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.10.31-23.26.00:805][612]PIE: Server logged in
+[2023.10.31-23.26.00:807][612]PIE: Play in editor total start time 0.097 seconds.
+[2023.10.31-23.26.02:120][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-23.26.02:121][679]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_WinLevel
+[2023.10.31-23.26.02:121][679]LogWorld: UWorld::CleanupWorld for WinLevel, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.26.02:121][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.26.02:125][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.31-23.26.02:132][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.26.02:151][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-23.26.02:152][679]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.10.31-23.26.02:152][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.10.31-23.26.02:154][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.10.31-23.26.02:165][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.10.31-23.26.02:205][680]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.10.31-23.26.21:496][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.10.31-23.26.21:499][716]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/Levels/WinLevel.WinLevel
+[2023.10.31-23.26.21:500][716]Cmd: MAP LOAD FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/WinLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.31-23.26.21:500][716]LightingResults: New page: Lighting Build
+[2023.10.31-23.26.21:500][716]LoadErrors: New page: Loading map: WinLevel.umap
+[2023.10.31-23.26.21:546][716]LogWorld: UWorld::CleanupWorld for WinLevel, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.26.21:547][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.26.21:547][716]MapCheck: New page: Map Check
+[2023.10.31-23.26.21:547][716]LightingResults: New page: Lighting Build
+[2023.10.31-23.26.21:565][716]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-23.26.21:568][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.10.31-23.26.21:573][716]LogAudio: Display: Audio Device (ID: 1) registered with world 'WinLevel'.
+[2023.10.31-23.26.21:573][716]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.26.21:573][716]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.26.21:573][716]LogAIModule: Creating AISystem for world WinLevel
+[2023.10.31-23.26.21:625][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.31-23.26.21:648][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2023.10.31-23.26.21:660][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.31-23.26.21:660][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.231ms to complete.
+[2023.10.31-23.26.32:022][195]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Blueprints/Levels/WinLevel.WinLevel:PersistentLevel.WinLevel
+[2023.10.31-23.26.32:022][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.26.32:022][195]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.26.56:955][512]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-23.26.59:541][666]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/WorldPartition/UnitTests/FourCubes.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-23.27.27:237][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.27.27:465][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2023.10.31-23.27.27:477][241]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/WinLevel
+[2023.10.31-23.27.27:478][241]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/WinLevel946F2F364C48109A4D7723A7E5653B1A.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/WinLevel.umap'
+[2023.10.31-23.27.27:489][241]LogFileHelpers: Saving map 'WinLevel' took 0.101
+[2023.10.31-23.27.27:500][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 11.0 sec)
+[2023.10.31-23.27.27:502][241]AssetCheck: New page: Asset Save: WinLevel
+[2023.10.31-23.27.27:502][241]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/WinLevel.WinLevel
+[2023.10.31-23.27.35:184][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.27.35:410][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.10.31-23.27.35:423][686]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/WinLevel
+[2023.10.31-23.27.35:423][686]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/WinLevelE50C1A9A44B49F5D78D4E587A85C4834.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/WinLevel.umap'
+[2023.10.31-23.27.35:433][686]LogFileHelpers: Saving map 'WinLevel' took 0.081
+[2023.10.31-23.27.35:444][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 259 ms (total: 11.3 sec)
+[2023.10.31-23.27.35:445][686]AssetCheck: New page: Asset Save: WinLevel
+[2023.10.31-23.27.35:445][686]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/WinLevel.WinLevel
+[2023.10.31-23.27.53:880][675]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content/Maps/Entry.umap' is outside repository at 'C:/Users/lucas/Documents/Unreal Projects/NoBrakesInSpace'
+[2023.10.31-23.27.59:691][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.27.59:892][ 11]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.10.31-23.27.59:893][ 11]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/BP_PlayerControllerE1FB44B84BFFA3D20B016A9AA8AE31A0.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.10.31-23.27.59:904][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 11.5 sec)
+[2023.10.31-23.27.59:906][ 11]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.10.31-23.27.59:906][ 11]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.10.31-23.28.03:996][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.28.04:186][244]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.10.31-23.28.04:186][244]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/BP_PlayerController56F2CA2745702AF3A41A42829414A84D.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.10.31-23.28.04:201][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 11.7 sec)
+[2023.10.31-23.28.04:205][244]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.10.31-23.28.04:205][244]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
