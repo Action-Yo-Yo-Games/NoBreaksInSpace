@@ -6220,3 +6220,117 @@ Script Stack (0 frames) :
 [2023.10.31-23.20.24:268][851]LogFileHelpers: InternalPromptForCheckoutAndSave took 384 ms (total: 8.99 sec)
 [2023.10.31-23.20.24:271][851]AssetCheck: New page: Asset Save: BP_Ship
 [2023.10.31-23.20.24:271][851]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/ShipBP/BP_Ship.BP_Ship
+[2023.10.31-23.21.18:840][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.10.31-23.21.18:984][336]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.21.18:989][336]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/Levels/5ConsecutiveHairpinTurns.5ConsecutiveHairpinTurns
+[2023.10.31-23.21.18:989][336]Cmd: MAP LOAD FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/5ConsecutiveHairpinTurns.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.31-23.21.18:989][336]LightingResults: New page: Lighting Build
+[2023.10.31-23.21.18:989][336]LoadErrors: New page: Loading map: 5ConsecutiveHairpinTurns.umap
+[2023.10.31-23.21.19:042][336]LogWorld: UWorld::CleanupWorld for TestLevel2, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.21.19:042][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.21.19:042][336]MapCheck: New page: Map Check
+[2023.10.31-23.21.19:042][336]LightingResults: New page: Lighting Build
+[2023.10.31-23.21.19:061][336]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-23.21.19:068][336]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2023.10.31-23.21.19:075][336]LogWorld: UWorld::CleanupWorld for 5ConsecutiveHairpinTurns, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.21.19:076][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.21.19:098][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.10.31-23.21.19:118][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.10.31-23.21.19:137][336]LogAudio: Display: Audio Device (ID: 1) registered with world '5ConsecutiveHairpinTurns'.
+[2023.10.31-23.21.19:137][336]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.21.19:138][336]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.21.19:138][336]LogAIModule: Creating AISystem for world 5ConsecutiveHairpinTurns
+[2023.10.31-23.21.19:174][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.31-23.21.19:201][336]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.10.31-23.21.19:214][336]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.31-23.21.19:215][336]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.4ms to complete.
+[2023.10.31-23.21.45:613][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.21.45:823][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.31-23.21.45:865][758]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/5ConsecutiveHairpinTurns
+[2023.10.31-23.21.45:865][758]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/5ConsecutiveHairpinTurnsBCFCA6D44BF4CC42C32CBCB9D6A06AA0.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/5ConsecutiveHairpinTurns.umap'
+[2023.10.31-23.21.45:878][758]LogFileHelpers: Saving map '5ConsecutiveHairpinTurns' took 0.117
+[2023.10.31-23.21.45:892][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 278 ms (total: 9.27 sec)
+[2023.10.31-23.21.45:896][758]AssetCheck: New page: Asset Save: 5ConsecutiveHairpinTurns
+[2023.10.31-23.21.45:896][758]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/5ConsecutiveHairpinTurns.5ConsecutiveHairpinTurns
+[2023.10.31-23.21.46:464][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.10.31-23.21.46:595][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.21.46:601][786]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/Levels/SpiralCasino.SpiralCasino
+[2023.10.31-23.21.46:601][786]Cmd: MAP LOAD FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/SpiralCasino.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.31-23.21.46:601][786]LightingResults: New page: Lighting Build
+[2023.10.31-23.21.46:601][786]LoadErrors: New page: Loading map: SpiralCasino.umap
+[2023.10.31-23.21.46:667][786]LogWorld: UWorld::CleanupWorld for 5ConsecutiveHairpinTurns, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.21.46:667][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.21.46:667][786]MapCheck: New page: Map Check
+[2023.10.31-23.21.46:667][786]LightingResults: New page: Lighting Build
+[2023.10.31-23.21.46:690][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-23.21.46:696][786]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.10.31-23.21.46:699][786]LogWorld: UWorld::CleanupWorld for SpiralCasino, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-23.21.46:699][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-23.21.46:723][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.10.31-23.21.46:745][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.10.31-23.21.46:764][786]LogAudio: Display: Audio Device (ID: 1) registered with world 'SpiralCasino'.
+[2023.10.31-23.21.46:764][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-23.21.46:764][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-23.21.46:765][786]LogAIModule: Creating AISystem for world SpiralCasino
+[2023.10.31-23.21.46:795][786]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.31-23.21.46:823][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.10.31-23.21.46:831][786]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.31-23.21.46:831][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.227ms to complete.
+[2023.10.31-23.21.49:399][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.31-23.21.49:399][919]Can't find target element.
+[2023.10.31-23.21.50:751][997]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.10.31-23.21.59:198][425]Cmd: DELETE
+[2023.10.31-23.21.59:198][425]Cmd: ACTOR DELETE
+[2023.10.31-23.21.59:202][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.21.59:225][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.10.31-23.21.59:229][425]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.10.31-23.22.00:089][463]Cmd: DELETE
+[2023.10.31-23.22.00:089][463]Cmd: ACTOR DELETE
+[2023.10.31-23.22.00:093][463]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.00:115][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.10.31-23.22.00:118][463]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.10.31-23.22.00:603][479]Cmd: DELETE
+[2023.10.31-23.22.00:603][479]Cmd: ACTOR DELETE
+[2023.10.31-23.22.00:607][479]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.00:633][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.10.31-23.22.00:637][479]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2023.10.31-23.22.01:218][500]Cmd: DELETE
+[2023.10.31-23.22.01:218][500]Cmd: ACTOR DELETE
+[2023.10.31-23.22.01:223][500]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.01:247][500]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.10.31-23.22.01:252][500]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2023.10.31-23.22.05:909][723]Cmd: DELETE
+[2023.10.31-23.22.05:909][723]Cmd: ACTOR DELETE
+[2023.10.31-23.22.05:912][723]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.05:932][723]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.10.31-23.22.05:935][723]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2023.10.31-23.22.06:449][747]Cmd: DELETE
+[2023.10.31-23.22.06:449][747]Cmd: ACTOR DELETE
+[2023.10.31-23.22.06:452][747]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.06:474][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.10.31-23.22.06:481][747]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2023.10.31-23.22.06:960][765]Cmd: DELETE
+[2023.10.31-23.22.06:960][765]Cmd: ACTOR DELETE
+[2023.10.31-23.22.06:963][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.06:984][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.10.31-23.22.06:988][765]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2023.10.31-23.22.07:586][792]Cmd: DELETE
+[2023.10.31-23.22.07:586][792]Cmd: ACTOR DELETE
+[2023.10.31-23.22.07:589][792]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.07:611][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.10.31-23.22.07:618][792]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2023.10.31-23.22.19:317][407]Cmd: DELETE
+[2023.10.31-23.22.19:317][407]Cmd: ACTOR DELETE
+[2023.10.31-23.22.19:320][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.31-23.22.19:349][407]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2023.10.31-23.22.19:355][407]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2023.10.31-23.23.05:396][650]Cmd: TRANSACTION UNDO
+[2023.10.31-23.23.05:397][650]LogEditorTransaction: Undo Scale Elements
+[2023.10.31-23.24.29:258][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.31-23.24.29:492][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.10.31-23.24.29:533][806]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/SpiralCasino
+[2023.10.31-23.24.29:534][806]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Saved/SpiralCasinoED2C36884FC43CAAFC1ADAA4E90F3AAB.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBrakesInSpace/Content/Blueprints/Levels/SpiralCasino.umap'
+[2023.10.31-23.24.29:545][806]LogFileHelpers: Saving map 'SpiralCasino' took 0.122
+[2023.10.31-23.24.29:560][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 9.57 sec)
+[2023.10.31-23.24.29:565][806]AssetCheck: New page: Asset Save: SpiralCasino
+[2023.10.31-23.24.29:565][806]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/SpiralCasino.SpiralCasino
