@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Jaden Ledward/Documents/GitHub/NoBreaksInSpace/Content/Blueprints/Levels/5ConsecutiveHairpinTurns.umap",
+				"C:/Users/Jaden Ledward/Documents/GitHub/NoBreaksInSpace/Content/Blueprints/AI/Tasks/BTTask_ChasePlayer.uasset",
+				"C:/Users/Jaden Ledward/Documents/GitHub/NoBreaksInSpace/Content/Blueprints/AI/BP_AI_SegwayCop.uasset",
+				"C:/Users/Jaden Ledward/Documents/GitHub/NoBreaksInSpace/Content/Blueprints/AI/BP_BarricadeCop.uasset",
 				"D:/unreal/NoBreaksInSpace-main/Content/map/original/Fbx_Default_Material1.uasset",
 				"D:/unreal/NoBreaksInSpace-main/Content/map/original/MI_BottomPart_03.uasset",
 				"D:/unreal/NoBreaksInSpace-main/Content/map/original/MI_CircleBorders_02.uasset",
