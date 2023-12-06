@@ -27284,3 +27284,1344 @@ Script Stack (0 frames) :
 [2023.12.06-17.57.17:716][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 17.6 sec)
 [2023.12.06-17.57.17:717][919]AssetCheck: New page: Asset Save: MenuScreen
 [2023.12.06-17.57.17:718][919]LogContentValidation: Display: Validating /Script/Engine.World /Game/Blueprints/Levels/MenuScreen.MenuScreen
+[2023.12.06-17.58.15:718][391]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-17.58.15:761][391]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.06-17.58.15:762][391]LogPlayLevel: [PlayLevel] Compiling BP_LevelLoader before play...
+[2023.12.06-17.58.15:845][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.12.06-17.58.15:851][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2023.12.06-17.58.15:851][391]PIE: New page: PIE session: MenuScreen (Dec 6, 2023, 3:58:15 AM)
+[2023.12.06-17.58.15:882][391]LogPlayLevel: Creating play world package: /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-17.58.15:884][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001260s)
+[2023.12.06-17.58.15:884][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Levels/MenuScreen.MenuScreen to /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen (0.001313s)
+[2023.12.06-17.58.15:901][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.06-17.58.15:903][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-17.58.15:903][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-17.58.15:904][391]LogAIModule: Creating AISystem for world MenuScreen
+[2023.12.06-17.58.15:904][391]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2023.12.06-17.58.15:904][391]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-17.58.15:904][391]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-17.58.15:904][391]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-17.58.15:905][391]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-17.58.15:905][391]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-17.58.15:905][391]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-17.58.15:906][391]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-17.58.15:932][391]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Nari Essential)
+[2023.12.06-17.58.15:932][391]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-17.58.15:932][391]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-17.58.15:932][391]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-17.58.15:934][391]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.06-17.58.15:934][391]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.12.06-17.58.15:936][391]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.06-17.58.15:936][391]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.06-17.58.15:936][391]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.06-17.58.15:936][391]LogAudio: Display: Audio Device (ID: 19) registered with world 'MenuScreen'.
+[2023.12.06-17.58.15:936][391]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.06-17.58.15:939][391]LogLoad: Game class is 'MenuGameMode_C'
+[2023.12.06-17.58.15:940][391]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen up for play (max tick rate 60) at 2023.12.06-10.58.15
+[2023.12.06-17.58.15:940][391]LogWorld: Bringing up level for play took: 0.000358
+[2023.12.06-17.58.15:942][391]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.12.06-17.58.15:944][391]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.06-17.58.15:944][391]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.06-17.58.15:944][391]PIE: Server logged in
+[2023.12.06-17.58.15:945][391]PIE: Play in editor total start time 0.184 seconds.
+[2023.12.06-17.58.16:885][434]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.06-17.58.16:885][434]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.06-17.58.16:887][434]LogNet: Browse: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-17.58.16:887][434]LogLoad: LoadMap: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-17.58.16:887][434]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-17.58.16:887][434]LogWorld: UWorld::CleanupWorld for MenuScreen, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-17.58.16:887][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-17.58.16:904][434]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-17.58.16:906][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.12.06-17.58.16:917][434]LogAudio: Display: Audio Device (ID: 19) registered with world 'TestLevel2'.
+[2023.12.06-17.58.16:917][434]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-17.58.16:917][434]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-17.58.16:918][434]LogAIModule: Creating AISystem for world TestLevel2
+[2023.12.06-17.58.16:918][434]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2023.12.06-17.58.16:918][434]LogLoad: Game class is 'GMB_PlayerGamemode_C'
+[2023.12.06-17.58.16:919][434]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_TestLevel2.TestLevel2 up for play (max tick rate 60) at 2023.12.06-10.58.16
+[2023.12.06-17.58.16:920][434]LogWorld: Bringing up level for play took: 0.001354
+[2023.12.06-17.58.16:930][434]LogLoad: Took 0.043704 seconds to LoadMap(/Game/Blueprints/Levels/TestLevel2)
+[2023.12.06-17.58.16:931][434]LogBlueprintUserMessages: [BP_Car_C_0] 747.221125
+[2023.12.06-17.58.16:985][435]LogBlueprintUserMessages: [BP_Car_C_0] 404.451796
+[2023.12.06-17.58.17:027][436]LogBlueprintUserMessages: [BP_Car_C_0] 423.688806
+[2023.12.06-17.58.17:048][437]LogBlueprintUserMessages: [BP_Car_C_0] 412.36762
+[2023.12.06-17.58.17:067][438]LogBlueprintUserMessages: [BP_Car_C_0] 412.324001
+[2023.12.06-17.58.17:085][439]LogBlueprintUserMessages: [BP_Car_C_0] 410.342827
+[2023.12.06-17.58.17:113][440]LogBlueprintUserMessages: [BP_Car_C_0] 407.677394
+[2023.12.06-17.58.17:138][441]LogWorldPartition: ULevel::OnLevelLoaded(Desert)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-17.58.17:140][441]LogBlueprintUserMessages: [BP_Car_C_0] 404.120458
+[2023.12.06-17.58.17:163][442]LogBlueprintUserMessages: [BP_Car_C_0] 403.603066
+[2023.12.06-17.58.17:181][443]LogBlueprintUserMessages: [BP_Car_C_0] 403.125126
+[2023.12.06-17.58.17:199][444]LogBlueprintUserMessages: [BP_Car_C_0] 402.608706
+[2023.12.06-17.58.17:217][445]LogBlueprintUserMessages: [BP_Car_C_0] 402.159086
+[2023.12.06-17.58.17:247][446]LogBlueprintUserMessages: [BP_Car_C_0] 401.288008
+[2023.12.06-17.58.17:252][446]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2023.12.06-17.58.17:253][446]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-17.58.17:253][446]LogWorldPartition: UWorldPartition::Initialize : World = Desert, World Type = PIE, IsMainWorldPartition = 0, Location = V(X=100000.00), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2023.12.06-17.58.17:253][446]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.06-17.58.17:259][446]LogWorldPartition: Display: GenerateStreaming for 'Desert' started...
+[2023.12.06-17.58.17:263][446]LogWorldPartition: Display: GenerateStreaming for 'Desert' took 4 ms (total: 266 ms)
+[2023.12.06-17.58.17:265][446]LogWorldPartition: Display: WorldPartition initialize took 12 ms (total: 3.06 sec)
+[2023.12.06-17.58.17:308][447]LogBlueprintUserMessages: [BP_Car_C_0] 400.280014
+[2023.12.06-17.58.17:314][447]LogStreaming: Display: UWorldPartitionLevelStreamingDynamic::RequestLevel(/Memory/UEDPIE_0_EIC1AO47M29YDPZL0H93CR1P4_LevelInstance_97) is flushing async loading
+[2023.12.06-17.58.17:314][447]LogStreaming: Display: FlushAsyncLoading(): 108 QueuedPackages, 0 AsyncPackages
+[2023.12.06-17.58.17:435][448]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:461][449]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:486][450]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:505][451]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:531][452]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:554][453]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:573][454]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:592][455]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:614][456]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:635][457]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:655][458]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:675][459]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:694][460]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:725][461]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:744][462]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:763][463]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:782][464]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:801][465]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:821][466]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:840][467]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:859][468]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:877][469]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:893][470]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:909][471]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:940][472]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:959][473]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:978][474]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.17:994][475]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:010][476]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:028][477]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:044][478]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:061][479]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:078][480]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:097][481]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:116][482]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:132][483]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:150][484]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:167][485]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:184][486]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:202][487]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:219][488]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:236][489]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:275][490]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:292][491]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:309][492]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:325][493]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:342][494]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:359][495]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:376][496]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:393][497]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:411][498]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:427][499]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:446][500]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:463][501]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:479][502]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:497][503]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:513][504]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:530][505]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:546][506]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:563][507]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:581][508]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:598][509]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:613][510]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:630][511]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:648][512]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:663][513]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:680][514]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:697][515]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:717][516]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:734][517]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:751][518]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:767][519]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:785][520]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:801][521]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:850][522]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:865][523]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:881][524]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:900][525]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:920][526]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:937][527]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.18:960][528]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-17.58.19:013][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-17.58.19:013][528]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_TestLevel2
+[2023.12.06-17.58.19:019][528]LogWorld: UWorld::CleanupWorld for TestLevel2, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-17.58.19:020][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-17.58.19:025][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-17.58.19:033][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-17.58.19:054][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-17.58.19:054][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.06-17.58.19:054][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.06-17.58.19:056][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.06-17.58.19:076][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.12.06-17.58.19:117][529]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.12.06-17.58.19:136][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.12.06-17.58.26:183][926]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-17.58.26:185][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-17.58.26:185][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-17.58.26:197][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-17.58.26:197][926]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-17.58.26:211][926]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.06-17.58.26:814][926]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.06-17.58.43:070][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-17.58.43:209][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-17.58.43:222][841]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-17.58.43:223][841]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI15D09458461FB22FF7C21DA736739226.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-17.58.43:233][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 17.8 sec)
+[2023.12.06-17.58.43:235][841]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-17.58.43:235][841]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-17.59.30:957][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-17.59.31:102][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-17.59.31:135][640]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-17.59.31:135][640]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UID846D3FE497E6E476A678182FE362666.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-17.59.31:146][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 18.0 sec)
+[2023.12.06-17.59.31:151][640]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-17.59.31:152][640]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-17.59.40:148][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-17.59.40:288][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-17.59.40:299][166]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-17.59.40:300][166]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI63C506EA4FF9CC02FB9968ADA5BD8F9D.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-17.59.40:311][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 18.1 sec)
+[2023.12.06-17.59.40:313][166]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-17.59.40:313][166]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.00.46:837][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.00.47:127][ 79]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/ShipBP/BP_Ship
+[2023.12.06-18.00.47:128][ 79]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/BP_Ship2BF6449441CF63C0C43462B783FF3D46.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/ShipBP/BP_Ship.uasset'
+[2023.12.06-18.00.47:138][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 299 ms (total: 18.4 sec)
+[2023.12.06-18.00.47:140][ 79]AssetCheck: New page: Asset Save: BP_Ship
+[2023.12.06-18.00.47:140][ 79]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/ShipBP/BP_Ship.BP_Ship
+[2023.12.06-18.00.49:540][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.00.49:741][212]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.12.06-18.00.49:742][212]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/BP_PlayerController2A40721B481AD49ED5A04D818CAEAE53.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.12.06-18.00.49:754][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 18.6 sec)
+[2023.12.06-18.00.49:756][212]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.12.06-18.00.49:756][212]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsRear.SportsCar_WheelsRear_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_WheelsFront.SportsCar_WheelsFront_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/SportsCar/SportsCar_Pawn.SportsCar_Pawn_C has parent /Script/ChaosVehicles.WheeledVehiclePawn, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_WheelsRear.OffroadCar_WheelsRear_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_WheelsFront.OffroadCar_WheelsFront_C has parent /Script/ChaosVehicles.ChaosVehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.OffroadCar_Pawn_C has parent /Script/ChaosVehicles.WheeledVehiclePawn, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/Vehicles/SportsCar/SportsCar_AnimBP.SportsCar_AnimBP_C has parent /Script/ChaosVehicles.VehicleAnimationInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:138][513]LogEditorClassViewer: Warning: Class /Game/Vehicles/OffroadCar/Offroad_AnimBP.Offroad_AnimBP_C has parent /Script/ChaosVehicles.VehicleAnimationInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.12:139][513]LogEditorClassViewer: Warning: Class /Game/Blueprints/Player/UW_UI.PLACEHOLDER-CLASS__BP_Ship_C_0 has parent , but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.12.06-18.01.18:917][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.01.19:122][885]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.12.06-18.01.19:123][885]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/BP_PlayerControllerFA5CCC41448E0FFF8882DF9460B0DA69.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.12.06-18.01.19:134][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 18.9 sec)
+[2023.12.06-18.01.19:136][885]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.12.06-18.01.19:136][885]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.12.06-18.01.24:232][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.01.24:444][181]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.12.06-18.01.24:445][181]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/BP_PlayerControllerD7D08CFE4FA6525129F35D9849202478.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.12.06-18.01.24:455][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms (total: 19.1 sec)
+[2023.12.06-18.01.24:458][181]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.12.06-18.01.24:458][181]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.12.06-18.01.46:185][724]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.01.46:381][724]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_PlayerController
+[2023.12.06-18.01.46:382][724]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/BP_PlayerController2A471CD14BD1F676876AB08531DF1E47.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/BP_PlayerController.uasset'
+[2023.12.06-18.01.46:393][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 19.3 sec)
+[2023.12.06-18.01.46:395][724]AssetCheck: New page: Asset Save: BP_PlayerController
+[2023.12.06-18.01.46:395][724]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_PlayerController.BP_PlayerController
+[2023.12.06-18.02.20:422][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.02.20:556][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.02.20:569][647]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.02.20:570][647]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UIA525D88F441776ECBF9DEB86BF38D606.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.02.20:580][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 19.5 sec)
+[2023.12.06-18.02.20:582][647]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.02.20:582][647]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.02.41:408][836]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.02.41:524][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.02.41:536][836]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.02.41:536][836]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI94561652416DD97AF94A13B56D775783.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.02.41:569][836]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 19.6 sec)
+[2023.12.06-18.02.41:571][836]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.02.41:571][836]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.02.52:277][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.02.52:434][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.02.52:446][460]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.02.52:447][460]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI00273F574EE288A87A1D81AA8D9D18A0.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.02.52:457][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 19.8 sec)
+[2023.12.06-18.02.52:458][460]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.02.52:458][460]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.02.54:750][597]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-18.02.54:760][597]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.06-18.02.54:771][597]LogPlayLevel: [PlayLevel] Compiling BP_PlayerController before play...
+[2023.12.06-18.02.54:939][597]LogPlayLevel: [PlayLevel] Compiling UW_UI before play...
+[2023.12.06-18.02.55:006][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.12.06-18.02.55:011][597]LogPlayLevel: PlayLevel: Blueprint regeneration took 251 ms (2 blueprints)
+[2023.12.06-18.02.55:011][597]PIE: New page: PIE session: MenuScreen (Dec 6, 2023, 4:02:55 AM)
+[2023.12.06-18.02.55:011][597]LogPlayLevel: Creating play world package: /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.02.55:012][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001251s)
+[2023.12.06-18.02.55:012][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Levels/MenuScreen.MenuScreen to /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen (0.001295s)
+[2023.12.06-18.02.55:030][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.12.06-18.02.55:032][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.02.55:032][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.02.55:033][597]LogAIModule: Creating AISystem for world MenuScreen
+[2023.12.06-18.02.55:033][597]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2023.12.06-18.02.55:033][597]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-18.02.55:033][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-18.02.55:033][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-18.02.55:034][597]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-18.02.55:034][597]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-18.02.55:034][597]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-18.02.55:036][597]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-18.02.55:069][597]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Nari Essential)
+[2023.12.06-18.02.55:069][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-18.02.55:069][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-18.02.55:069][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-18.02.55:070][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.06-18.02.55:070][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.12.06-18.02.55:072][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.06-18.02.55:072][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.06-18.02.55:072][597]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.06-18.02.55:072][597]LogAudio: Display: Audio Device (ID: 20) registered with world 'MenuScreen'.
+[2023.12.06-18.02.55:072][597]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.06-18.02.55:075][597]LogLoad: Game class is 'MenuGameMode_C'
+[2023.12.06-18.02.55:076][597]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen up for play (max tick rate 60) at 2023.12.06-11.02.55
+[2023.12.06-18.02.55:076][597]LogWorld: Bringing up level for play took: 0.000379
+[2023.12.06-18.02.55:078][597]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.12.06-18.02.55:080][597]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.06-18.02.55:080][597]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.06-18.02.55:080][597]PIE: Server logged in
+[2023.12.06-18.02.55:081][597]PIE: Play in editor total start time 0.321 seconds.
+[2023.12.06-18.02.56:063][647]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.06-18.02.56:063][647]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.06-18.02.56:064][647]LogNet: Browse: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.02.56:064][647]LogLoad: LoadMap: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.02.56:064][647]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.02.56:065][647]LogWorld: UWorld::CleanupWorld for MenuScreen, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.02.56:065][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.02.56:081][647]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-18.02.56:083][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.12.06-18.02.56:093][647]LogAudio: Display: Audio Device (ID: 20) registered with world 'TestLevel2'.
+[2023.12.06-18.02.56:093][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.02.56:093][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.02.56:094][647]LogAIModule: Creating AISystem for world TestLevel2
+[2023.12.06-18.02.56:094][647]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2023.12.06-18.02.56:094][647]LogLoad: Game class is 'GMB_PlayerGamemode_C'
+[2023.12.06-18.02.56:096][647]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_TestLevel2.TestLevel2 up for play (max tick rate 60) at 2023.12.06-11.02.56
+[2023.12.06-18.02.56:096][647]LogWorld: Bringing up level for play took: 0.001552
+[2023.12.06-18.02.56:107][647]LogLoad: Took 0.042405 seconds to LoadMap(/Game/Blueprints/Levels/TestLevel2)
+[2023.12.06-18.02.56:107][647]LogBlueprintUserMessages: [BP_Car_C_0] 747.221125
+[2023.12.06-18.02.56:158][648]LogBlueprintUserMessages: [BP_Car_C_0] 407.843829
+[2023.12.06-18.02.56:177][649]LogBlueprintUserMessages: [BP_Car_C_0] 436.458077
+[2023.12.06-18.02.56:211][650]LogBlueprintUserMessages: [BP_Car_C_0] 429.198869
+[2023.12.06-18.02.56:229][651]LogBlueprintUserMessages: [BP_Car_C_0] 417.161986
+[2023.12.06-18.02.56:247][652]LogBlueprintUserMessages: [BP_Car_C_0] 416.627511
+[2023.12.06-18.02.56:263][653]LogWorldPartition: ULevel::OnLevelLoaded(Desert)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-18.02.56:265][653]LogBlueprintUserMessages: [BP_Car_C_0] 413.995347
+[2023.12.06-18.02.56:266][653]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-18.02.56:266][653]LogWorldPartition: UWorldPartition::Initialize : World = Desert, World Type = PIE, IsMainWorldPartition = 0, Location = V(X=100000.00), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2023.12.06-18.02.56:266][653]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.06-18.02.56:272][653]LogWorldPartition: Display: GenerateStreaming for 'Desert' started...
+[2023.12.06-18.02.56:277][653]LogWorldPartition: Display: GenerateStreaming for 'Desert' took 4 ms (total: 271 ms)
+[2023.12.06-18.02.56:279][653]LogWorldPartition: Display: WorldPartition initialize took 12 ms (total: 3.08 sec)
+[2023.12.06-18.02.56:323][654]LogBlueprintUserMessages: [BP_Car_C_0] 403.016586
+[2023.12.06-18.02.56:325][654]LogStreaming: Display: UWorldPartitionLevelStreamingDynamic::RequestLevel(/Memory/UEDPIE_0_EIC1AO47M29YDPZL0H93CR1P4_LevelInstance_99) is flushing async loading
+[2023.12.06-18.02.56:325][654]LogStreaming: Display: FlushAsyncLoading(): 108 QueuedPackages, 7 AsyncPackages
+[2023.12.06-18.02.56:411][655]LogBlueprintUserMessages: [BP_Car_C_0] 400.049292
+[2023.12.06-18.02.56:440][656]LogBlueprintUserMessages: [BP_Car_C_0] 400.311264
+[2023.12.06-18.02.56:460][657]LogBlueprintUserMessages: [BP_Car_C_0] 400.260954
+[2023.12.06-18.02.56:484][658]LogBlueprintUserMessages: [BP_Car_C_0] 400.207528
+[2023.12.06-18.02.56:508][659]LogBlueprintUserMessages: [BP_Car_C_0] 400.147758
+[2023.12.06-18.02.56:531][660]LogBlueprintUserMessages: [BP_Car_C_0] 400.118205
+[2023.12.06-18.02.56:538][660]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2023.12.06-18.02.56:556][661]LogBlueprintUserMessages: [BP_Car_C_0] 400.085739
+[2023.12.06-18.02.56:582][662]LogBlueprintUserMessages: [BP_Car_C_0] 400.064483
+[2023.12.06-18.02.56:621][663]LogBlueprintUserMessages: [BP_Car_C_0] 400.030995
+[2023.12.06-18.02.56:657][664]LogBlueprintUserMessages: [BP_Car_C_0] 400.029992
+[2023.12.06-18.02.56:688][665]LogBlueprintUserMessages: [BP_Car_C_0] 400.016228
+[2023.12.06-18.02.56:713][666]LogBlueprintUserMessages: [BP_Car_C_0] 400.011773
+[2023.12.06-18.02.56:746][667]LogBlueprintUserMessages: [BP_Car_C_0] 400.009311
+[2023.12.06-18.02.56:765][668]LogBlueprintUserMessages: [BP_Car_C_0] 400.006935
+[2023.12.06-18.02.56:783][669]LogBlueprintUserMessages: [BP_Car_C_0] 400.006268
+[2023.12.06-18.02.56:802][670]LogBlueprintUserMessages: [BP_Car_C_0] 400.005071
+[2023.12.06-18.02.56:821][671]LogBlueprintUserMessages: [BP_Car_C_0] 400.00416
+[2023.12.06-18.02.56:840][672]LogBlueprintUserMessages: [BP_Car_C_0] 400.003326
+[2023.12.06-18.02.56:858][673]LogBlueprintUserMessages: [BP_Car_C_0] 400.002729
+[2023.12.06-18.02.56:877][674]LogBlueprintUserMessages: [BP_Car_C_0] 400.002238
+[2023.12.06-18.02.56:895][675]LogBlueprintUserMessages: [BP_Car_C_0] 400.001807
+[2023.12.06-18.02.56:911][676]LogBlueprintUserMessages: [BP_Car_C_0] 400.001462
+[2023.12.06-18.02.56:945][677]LogBlueprintUserMessages: [BP_Car_C_0] 400.001101
+[2023.12.06-18.02.56:963][678]LogBlueprintUserMessages: [BP_Car_C_0] 400.000671
+[2023.12.06-18.02.56:979][679]LogBlueprintUserMessages: [BP_Car_C_0] 400.000687
+[2023.12.06-18.02.56:996][680]LogBlueprintUserMessages: [BP_Car_C_0] 400.000559
+[2023.12.06-18.02.57:012][681]LogBlueprintUserMessages: [BP_Car_C_0] 400.000458
+[2023.12.06-18.02.57:029][682]LogBlueprintUserMessages: [BP_Car_C_0] 400.000381
+[2023.12.06-18.02.57:046][683]LogBlueprintUserMessages: [BP_Car_C_0] 400.000305
+[2023.12.06-18.02.57:062][684]LogBlueprintUserMessages: [BP_Car_C_0] 400.000254
+[2023.12.06-18.02.57:079][685]LogBlueprintUserMessages: [BP_Car_C_0] 400.000203
+[2023.12.06-18.02.57:096][686]LogBlueprintUserMessages: [BP_Car_C_0] 400.000178
+[2023.12.06-18.02.57:113][687]LogBlueprintUserMessages: [BP_Car_C_0] 400.000153
+[2023.12.06-18.02.57:129][688]LogBlueprintUserMessages: [BP_Car_C_0] 400.000127
+[2023.12.06-18.02.57:146][689]LogBlueprintUserMessages: [BP_Car_C_0] 400.000102
+[2023.12.06-18.02.57:163][690]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:179][691]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:196][692]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:213][693]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:229][694]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:246][695]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:263][696]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:279][697]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:296][698]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:312][699]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:329][700]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:346][701]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:363][702]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:379][703]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:396][704]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:413][705]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:429][706]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:446][707]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:463][708]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:479][709]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:496][710]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:513][711]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:529][712]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:547][713]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:564][714]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:580][715]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:598][716]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:632][717]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:649][718]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:667][719]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:683][720]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:699][721]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:716][722]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:733][723]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:750][724]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:767][725]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:783][726]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:800][727]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:817][728]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:835][729]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:851][730]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:868][731]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:884][732]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:902][733]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:918][734]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:936][735]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:953][736]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:972][737]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.57:994][738]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:013][739]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:033][740]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:053][741]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:074][742]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:092][743]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:111][744]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:129][745]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:147][746]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:168][747]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:190][748]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:209][749]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:228][750]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:248][751]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:268][752]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:288][753]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:308][754]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:328][755]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:347][756]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:368][757]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:387][758]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:405][759]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:424][760]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:442][761]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:460][762]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:479][763]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:498][764]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:516][765]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:535][766]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:552][767]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:569][768]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:586][769]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:604][770]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:621][771]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:639][772]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:657][773]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:675][774]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:693][775]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:710][776]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:728][777]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:748][778]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:766][779]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:783][780]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:801][781]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:819][782]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:839][783]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:858][784]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:877][785]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:897][786]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:917][787]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:935][788]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:954][789]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:972][790]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.58:989][791]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:006][792]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:023][793]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:040][794]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:057][795]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:074][796]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:090][797]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:107][798]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:124][799]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:143][800]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:159][801]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:176][802]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:193][803]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:209][804]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:228][805]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:247][806]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:262][807]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:282][808]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:301][809]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:318][810]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:337][811]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:359][812]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:375][813]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:394][814]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:412][815]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:430][816]PIE: Error: Blueprint Runtime Error: "Attempted to access Spline via property Spline, but Spline is not valid (pending kill or garbage)". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP Civilian One Blueprint:  BP_CivilianOne
+[2023.12.06-18.02.59:431][816]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:449][817]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:468][818]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:485][819]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:503][820]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:521][821]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:539][822]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:558][823]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:577][824]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:593][825]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:610][826]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:628][827]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:645][828]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:662][829]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:680][830]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:697][831]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:713][832]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:730][833]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:749][834]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:764][835]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:782][836]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:797][837]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:814][838]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:831][839]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:848][840]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:864][841]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:882][842]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:898][843]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:915][844]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:931][845]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:949][846]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:966][847]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.02.59:985][848]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:002][849]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:020][850]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:036][851]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:053][852]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:069][853]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:087][854]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:103][855]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:120][856]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:137][857]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:154][858]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:170][859]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:188][860]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:204][861]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:220][862]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:237][863]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:254][864]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:270][865]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:289][866]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:305][867]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:322][868]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:339][869]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:356][870]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:373][871]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:392][872]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:408][873]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:425][874]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:442][875]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:459][876]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:475][877]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:494][878]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:509][879]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:527][880]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:545][881]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:562][882]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:578][883]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:596][884]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:613][885]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:631][886]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:649][887]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:666][888]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:682][889]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:700][890]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:716][891]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:733][892]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:750][893]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:767][894]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:784][895]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:802][896]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:819][897]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:836][898]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:854][899]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:870][900]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:888][901]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:904][902]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:920][903]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:938][904]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:954][905]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:971][906]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.00:989][907]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:006][908]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:023][909]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:040][910]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:056][911]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:073][912]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:090][913]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:106][914]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:122][915]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:139][916]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:156][917]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:172][918]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:189][919]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:206][920]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:223][921]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:239][922]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:256][923]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:273][924]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:290][925]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:306][926]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:323][927]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:339][928]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:356][929]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:373][930]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:389][931]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:406][932]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:423][933]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:440][934]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:456][935]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:474][936]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:489][937]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:506][938]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:522][939]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:539][940]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:556][941]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:573][942]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:589][943]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:605][944]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:622][945]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:638][946]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:655][947]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:673][948]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:690][949]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:707][950]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:723][951]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:739][952]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:756][953]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:774][954]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:789][955]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:806][956]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:823][957]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:840][958]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:857][959]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:876][960]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:893][961]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:910][962]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:926][963]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:943][964]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:959][965]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:978][966]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.01:994][967]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:010][968]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:027][969]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:044][970]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:061][971]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:078][972]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:095][973]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:111][974]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:127][975]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:144][976]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:161][977]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:178][978]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:194][979]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:211][980]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:228][981]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:244][982]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:261][983]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:279][984]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:295][985]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:311][986]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:327][987]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:344][988]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:361][989]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:378][990]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:394][991]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:410][992]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:427][993]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:444][994]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:460][995]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:479][996]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:495][997]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:511][998]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:528][999]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:545][  0]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:561][  1]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:579][  2]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:595][  3]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:612][  4]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:628][  5]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:645][  6]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:661][  7]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:678][  8]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:694][  9]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:712][ 10]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:728][ 11]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:744][ 12]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:761][ 13]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:779][ 14]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:795][ 15]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:811][ 16]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:828][ 17]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:845][ 18]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:861][ 19]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:878][ 20]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:894][ 21]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:911][ 22]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:928][ 23]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:945][ 24]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:961][ 25]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:979][ 26]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.02:996][ 27]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.03:012][ 28]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.03:029][ 29]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.03:046][ 30]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.03:064][ 31]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.03:103][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.03.03:103][ 31]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_TestLevel2
+[2023.12.06-18.03.03:108][ 31]LogWorld: UWorld::CleanupWorld for TestLevel2, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.03.03:110][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.03.03:115][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-18.03.03:124][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.03.03:145][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.03.03:145][ 31]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.06-18.03.03:145][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.06-18.03.03:147][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.06-18.03.03:170][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.12.06-18.03.03:509][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.12.06-18.03.03:530][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.12.06-18.03.05:043][111]LogSlate: Window 'Message Log' being destroyed
+[2023.12.06-18.03.05:050][111]LogSlate: Window 'Message Log' being destroyed
+[2023.12.06-18.03.38:452][ 37]LogSlate: Took 0.006415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.12.06-18.03.44:579][392]BlueprintLog: New page: Compile UW_UI
+[2023.12.06-18.03.44:616][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.12.06-18.03.55:817][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.03.55:964][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.03.55:976][976]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.03.55:976][976]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI9CDC22A64EA6B50EFF02578C8E80ABEB.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.03.55:986][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 20.0 sec)
+[2023.12.06-18.03.55:988][976]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.03.55:988][976]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.03.56:163][986]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-18.03.56:173][986]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.06-18.03.56:175][986]LogPlayLevel: [PlayLevel] Compiling UW_UI before play...
+[2023.12.06-18.03.56:245][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.12.06-18.03.56:251][986]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (1 blueprints)
+[2023.12.06-18.03.56:251][986]PIE: New page: PIE session: MenuScreen (Dec 6, 2023, 4:03:56 AM)
+[2023.12.06-18.03.56:252][986]LogPlayLevel: Creating play world package: /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.03.56:253][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001493s)
+[2023.12.06-18.03.56:253][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Levels/MenuScreen.MenuScreen to /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen (0.001541s)
+[2023.12.06-18.03.56:271][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.06-18.03.56:273][986]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.03.56:273][986]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.03.56:273][986]LogAIModule: Creating AISystem for world MenuScreen
+[2023.12.06-18.03.56:274][986]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2023.12.06-18.03.56:274][986]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-18.03.56:274][986]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-18.03.56:274][986]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-18.03.56:274][986]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-18.03.56:274][986]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-18.03.56:274][986]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-18.03.56:277][986]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-18.03.56:293][986]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Nari Essential)
+[2023.12.06-18.03.56:293][986]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-18.03.56:293][986]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-18.03.56:293][986]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-18.03.56:294][986]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.06-18.03.56:294][986]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.06-18.03.56:297][986]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.06-18.03.56:297][986]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.06-18.03.56:297][986]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.06-18.03.56:297][986]LogAudio: Display: Audio Device (ID: 21) registered with world 'MenuScreen'.
+[2023.12.06-18.03.56:297][986]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.06-18.03.56:408][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.03.56:409][986]LogLoad: Game class is 'MenuGameMode_C'
+[2023.12.06-18.03.56:409][986]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen up for play (max tick rate 60) at 2023.12.06-11.03.56
+[2023.12.06-18.03.56:410][986]LogWorld: Bringing up level for play took: 0.000653
+[2023.12.06-18.03.56:414][986]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.12.06-18.03.56:414][986]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.06-18.03.56:416][986]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.06-18.03.56:416][986]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.06-18.03.56:417][986]PIE: Server logged in
+[2023.12.06-18.03.56:417][986]PIE: Play in editor total start time 0.244 seconds.
+[2023.12.06-18.03.56:461][986]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.12.06-18.03.57:725][ 47]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.06-18.03.57:725][ 47]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.06-18.03.57:727][ 47]LogNet: Browse: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.03.57:727][ 47]LogLoad: LoadMap: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.03.57:727][ 47]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.03.57:727][ 47]LogWorld: UWorld::CleanupWorld for MenuScreen, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.03.57:727][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.03.57:744][ 47]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-18.03.57:746][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.12.06-18.03.57:758][ 47]LogAudio: Display: Audio Device (ID: 21) registered with world 'TestLevel2'.
+[2023.12.06-18.03.57:758][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.03.57:758][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.03.57:759][ 47]LogAIModule: Creating AISystem for world TestLevel2
+[2023.12.06-18.03.57:759][ 47]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2023.12.06-18.03.57:759][ 47]LogLoad: Game class is 'GMB_PlayerGamemode_C'
+[2023.12.06-18.03.57:762][ 47]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_TestLevel2.TestLevel2 up for play (max tick rate 60) at 2023.12.06-11.03.57
+[2023.12.06-18.03.57:762][ 47]LogWorld: Bringing up level for play took: 0.001997
+[2023.12.06-18.03.57:773][ 47]LogLoad: Took 0.046561 seconds to LoadMap(/Game/Blueprints/Levels/TestLevel2)
+[2023.12.06-18.03.57:774][ 47]LogBlueprintUserMessages: [BP_Car_C_0] 747.221059
+[2023.12.06-18.03.57:796][ 48]LogBlueprintUserMessages: [BP_Car_C_0] 456.091581
+[2023.12.06-18.03.57:839][ 49]LogBlueprintUserMessages: [BP_Car_C_0] 452.756479
+[2023.12.06-18.03.57:922][ 50]LogBlueprintUserMessages: [BP_Car_C_0] 408.65746
+[2023.12.06-18.03.57:940][ 51]LogBlueprintUserMessages: [BP_Car_C_0] 412.203494
+[2023.12.06-18.03.57:959][ 52]LogBlueprintUserMessages: [BP_Car_C_0] 412.108587
+[2023.12.06-18.03.57:974][ 53]LogWorldPartition: ULevel::OnLevelLoaded(Desert)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-18.03.57:976][ 53]LogBlueprintUserMessages: [BP_Car_C_0] 410.185123
+[2023.12.06-18.03.57:977][ 53]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-18.03.57:977][ 53]LogWorldPartition: UWorldPartition::Initialize : World = Desert, World Type = PIE, IsMainWorldPartition = 0, Location = V(X=100000.00), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2023.12.06-18.03.57:977][ 53]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.06-18.03.57:982][ 53]LogWorldPartition: Display: GenerateStreaming for 'Desert' started...
+[2023.12.06-18.03.57:987][ 53]LogWorldPartition: Display: GenerateStreaming for 'Desert' took 4 ms (total: 275 ms)
+[2023.12.06-18.03.57:989][ 53]LogWorldPartition: Display: WorldPartition initialize took 12 ms (total: 3.09 sec)
+[2023.12.06-18.03.58:002][ 54]LogBlueprintUserMessages: [BP_Car_C_0] 406.311363
+[2023.12.06-18.03.58:005][ 54]LogStreaming: Display: UWorldPartitionLevelStreamingDynamic::RequestLevel(/Memory/UEDPIE_0_EIC1AO47M29YDPZL0H93CR1P4_LevelInstance_101) is flushing async loading
+[2023.12.06-18.03.58:005][ 54]LogStreaming: Display: FlushAsyncLoading(): 108 QueuedPackages, 7 AsyncPackages
+[2023.12.06-18.03.58:088][ 55]LogBlueprintUserMessages: [BP_Car_C_0] 400.137992
+[2023.12.06-18.03.58:116][ 56]LogBlueprintUserMessages: [BP_Car_C_0] 400.628316
+[2023.12.06-18.03.58:144][ 57]LogBlueprintUserMessages: [BP_Car_C_0] 400.482783
+[2023.12.06-18.03.58:168][ 58]LogBlueprintUserMessages: [BP_Car_C_0] 400.327779
+[2023.12.06-18.03.58:193][ 59]LogBlueprintUserMessages: [BP_Car_C_0] 400.256964
+[2023.12.06-18.03.58:220][ 60]LogBlueprintUserMessages: [BP_Car_C_0] 400.1926
+[2023.12.06-18.03.58:225][ 60]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2023.12.06-18.03.58:243][ 61]LogBlueprintUserMessages: [BP_Car_C_0] 400.148109
+[2023.12.06-18.03.58:267][ 62]LogBlueprintUserMessages: [BP_Car_C_0] 400.11032
+[2023.12.06-18.03.58:292][ 63]LogBlueprintUserMessages: [BP_Car_C_0] 400.083893
+[2023.12.06-18.03.58:336][ 64]LogBlueprintUserMessages: [BP_Car_C_0] 400.059895
+[2023.12.06-18.03.58:365][ 65]LogBlueprintUserMessages: [BP_Car_C_0] 400.024596
+[2023.12.06-18.03.58:390][ 66]LogBlueprintUserMessages: [BP_Car_C_0] 400.025179
+[2023.12.06-18.03.58:428][ 67]LogBlueprintUserMessages: [BP_Car_C_0] 400.015237
+[2023.12.06-18.03.58:449][ 68]LogBlueprintUserMessages: [BP_Car_C_0] 400.012151
+[2023.12.06-18.03.58:468][ 69]LogBlueprintUserMessages: [BP_Car_C_0] 400.010929
+[2023.12.06-18.03.58:487][ 70]LogBlueprintUserMessages: [BP_Car_C_0] 400.008767
+[2023.12.06-18.03.58:507][ 71]LogBlueprintUserMessages: [BP_Car_C_0] 400.007024
+[2023.12.06-18.03.58:525][ 72]LogBlueprintUserMessages: [BP_Car_C_0] 400.005736
+[2023.12.06-18.03.58:544][ 73]LogBlueprintUserMessages: [BP_Car_C_0] 400.004655
+[2023.12.06-18.03.58:564][ 74]LogBlueprintUserMessages: [BP_Car_C_0] 400.003694
+[2023.12.06-18.03.58:583][ 75]LogBlueprintUserMessages: [BP_Car_C_0] 400.002971
+[2023.12.06-18.03.58:599][ 76]LogBlueprintUserMessages: [BP_Car_C_0] 400.002411
+[2023.12.06-18.03.58:633][ 77]LogBlueprintUserMessages: [BP_Car_C_0] 400.001793
+[2023.12.06-18.03.58:658][ 78]LogBlueprintUserMessages: [BP_Car_C_0] 400.000924
+[2023.12.06-18.03.58:674][ 79]LogBlueprintUserMessages: [BP_Car_C_0] 400.001017
+[2023.12.06-18.03.58:691][ 80]LogBlueprintUserMessages: [BP_Car_C_0] 400.000839
+[2023.12.06-18.03.58:707][ 81]LogBlueprintUserMessages: [BP_Car_C_0] 400.000687
+[2023.12.06-18.03.58:726][ 82]LogBlueprintUserMessages: [BP_Car_C_0] 400.000552
+[2023.12.06-18.03.58:747][ 83]LogBlueprintUserMessages: [BP_Car_C_0] 400.000405
+[2023.12.06-18.03.58:766][ 84]LogBlueprintUserMessages: [BP_Car_C_0] 400.000347
+[2023.12.06-18.03.58:786][ 85]LogBlueprintUserMessages: [BP_Car_C_0] 400.000267
+[2023.12.06-18.03.58:805][ 86]LogBlueprintUserMessages: [BP_Car_C_0] 400.000224
+[2023.12.06-18.03.58:826][ 87]LogBlueprintUserMessages: [BP_Car_C_0] 400.000168
+[2023.12.06-18.03.58:849][ 88]LogBlueprintUserMessages: [BP_Car_C_0] 400.000118
+[2023.12.06-18.03.58:867][ 89]LogBlueprintUserMessages: [BP_Car_C_0] 400.000099
+[2023.12.06-18.03.58:889][ 90]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.58:908][ 91]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.58:930][ 92]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.58:950][ 93]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.58:968][ 94]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.58:992][ 95]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:013][ 96]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:032][ 97]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:050][ 98]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:072][ 99]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:094][100]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:115][101]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:135][102]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:154][103]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:176][104]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:196][105]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:215][106]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:237][107]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:257][108]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:278][109]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:301][110]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:320][111]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:340][112]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:364][113]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:388][114]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:409][115]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:437][116]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:462][117]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:489][118]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:513][119]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:534][120]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:552][121]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:574][122]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:595][123]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:617][124]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:639][125]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:659][126]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:684][127]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:704][128]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:724][129]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:745][130]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:766][131]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:786][132]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:806][133]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:826][134]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:850][135]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:869][136]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:890][137]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:916][138]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:935][139]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:955][140]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.03.59:993][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.03.59:993][140]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_TestLevel2
+[2023.12.06-18.03.59:994][140]LogSlate: Window 'NoBrakesInSpace Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.12.06-18.04.00:006][140]LogWorld: UWorld::CleanupWorld for TestLevel2, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.04.00:008][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.04.00:011][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-18.04.00:021][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.04.00:043][140]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.06-18.04.00:043][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.06-18.04.00:045][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.06-18.04.00:065][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.06-18.04.00:091][141]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.12.06-18.04.00:111][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.06-18.04.01:262][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.04.01:383][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.04.01:394][198]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.04.01:395][198]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI9911DB8A4418231D968476B0839C868D.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.04.01:407][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 20.1 sec)
+[2023.12.06-18.04.01:410][198]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.04.01:410][198]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.04.20:107][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-18.04.20:274][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/UW_UI" FILE="../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset" SILENT=true
+[2023.12.06-18.04.20:286][195]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/UW_UI
+[2023.12.06-18.04.20:287][195]LogSavePackage: Moving '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Saved/UW_UI783D3DF546A115A7234A8FAE17858212.tmp' to '../../../../../../Users/lucas/Documents/Unreal Projects/NoBreaksInSpace/Content/Blueprints/Player/UW_UI.uasset'
+[2023.12.06-18.04.20:297][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 20.3 sec)
+[2023.12.06-18.04.20:299][195]AssetCheck: New page: Asset Save: UW_UI
+[2023.12.06-18.04.20:299][195]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Player/UW_UI.UW_UI
+[2023.12.06-18.04.20:732][221]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-18.04.20:742][221]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.06-18.04.20:744][221]LogPlayLevel: [PlayLevel] Compiling UW_UI before play...
+[2023.12.06-18.04.20:814][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.12.06-18.04.20:818][221]LogPlayLevel: PlayLevel: Blueprint regeneration took 76 ms (1 blueprints)
+[2023.12.06-18.04.20:818][221]PIE: New page: PIE session: MenuScreen (Dec 6, 2023, 4:04:20 AM)
+[2023.12.06-18.04.20:818][221]LogPlayLevel: Creating play world package: /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.04.20:820][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001215s)
+[2023.12.06-18.04.20:820][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Levels/MenuScreen.MenuScreen to /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen (0.001254s)
+[2023.12.06-18.04.20:838][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.12.06-18.04.20:840][221]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.04.20:840][221]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.04.20:840][221]LogAIModule: Creating AISystem for world MenuScreen
+[2023.12.06-18.04.20:841][221]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2023.12.06-18.04.20:841][221]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-18.04.20:841][221]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-18.04.20:841][221]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-18.04.20:841][221]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-18.04.20:841][221]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-18.04.20:841][221]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-18.04.20:843][221]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-18.04.20:864][221]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Nari Essential)
+[2023.12.06-18.04.20:864][221]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-18.04.20:864][221]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-18.04.20:864][221]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-18.04.20:865][221]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.06-18.04.20:865][221]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.06-18.04.20:868][221]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.06-18.04.20:868][221]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.06-18.04.20:868][221]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.06-18.04.20:868][221]LogAudio: Display: Audio Device (ID: 22) registered with world 'MenuScreen'.
+[2023.12.06-18.04.20:868][221]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.06-18.04.21:003][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.04.21:003][221]LogLoad: Game class is 'MenuGameMode_C'
+[2023.12.06-18.04.21:004][221]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_MenuScreen.MenuScreen up for play (max tick rate 60) at 2023.12.06-11.04.21
+[2023.12.06-18.04.21:004][221]LogWorld: Bringing up level for play took: 0.000607
+[2023.12.06-18.04.21:007][221]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.12.06-18.04.21:007][221]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.06-18.04.21:008][221]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.12.06-18.04.21:009][221]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.12.06-18.04.21:009][221]PIE: Server logged in
+[2023.12.06-18.04.21:010][221]PIE: Play in editor total start time 0.269 seconds.
+[2023.12.06-18.04.21:059][221]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.12.06-18.04.22:552][290]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.12.06-18.04.22:552][290]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.12.06-18.04.22:554][290]LogNet: Browse: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.04.22:554][290]LogLoad: LoadMap: /Game/Blueprints/Levels/TestLevel2
+[2023.12.06-18.04.22:554][290]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_MenuScreen
+[2023.12.06-18.04.22:555][290]LogWorld: UWorld::CleanupWorld for MenuScreen, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.04.22:555][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.04.22:572][290]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-18.04.22:574][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.12.06-18.04.22:585][290]LogAudio: Display: Audio Device (ID: 22) registered with world 'TestLevel2'.
+[2023.12.06-18.04.22:585][290]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-18.04.22:585][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-18.04.22:586][290]LogAIModule: Creating AISystem for world TestLevel2
+[2023.12.06-18.04.22:586][290]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2023.12.06-18.04.22:586][290]LogLoad: Game class is 'GMB_PlayerGamemode_C'
+[2023.12.06-18.04.22:588][290]LogWorld: Bringing World /Game/Blueprints/Levels/UEDPIE_0_TestLevel2.TestLevel2 up for play (max tick rate 60) at 2023.12.06-11.04.22
+[2023.12.06-18.04.22:589][290]LogWorld: Bringing up level for play took: 0.001603
+[2023.12.06-18.04.22:601][290]LogLoad: Took 0.046689 seconds to LoadMap(/Game/Blueprints/Levels/TestLevel2)
+[2023.12.06-18.04.22:602][290]LogBlueprintUserMessages: [BP_Car_C_0] 747.221951
+[2023.12.06-18.04.22:625][291]LogBlueprintUserMessages: [BP_Car_C_0] 452.380911
+[2023.12.06-18.04.22:667][292]LogBlueprintUserMessages: [BP_Car_C_0] 450.49335
+[2023.12.06-18.04.22:717][293]LogBlueprintUserMessages: [BP_Car_C_0] 435.914924
+[2023.12.06-18.04.22:736][294]LogBlueprintUserMessages: [BP_Car_C_0] 423.478831
+[2023.12.06-18.04.22:756][295]LogBlueprintUserMessages: [BP_Car_C_0] 423.775847
+[2023.12.06-18.04.22:775][296]LogWorldPartition: ULevel::OnLevelLoaded(Desert)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=0, InitializeForMainWorld=0, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-18.04.22:777][296]LogBlueprintUserMessages: [BP_Car_C_0] 418.357568
+[2023.12.06-18.04.22:778][296]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-18.04.22:778][296]LogWorldPartition: UWorldPartition::Initialize : World = Desert, World Type = PIE, IsMainWorldPartition = 0, Location = V(X=100000.00), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2023.12.06-18.04.22:778][296]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.12.06-18.04.22:784][296]LogWorldPartition: Display: GenerateStreaming for 'Desert' started...
+[2023.12.06-18.04.22:789][296]LogWorldPartition: Display: GenerateStreaming for 'Desert' took 4 ms (total: 280 ms)
+[2023.12.06-18.04.22:791][296]LogWorldPartition: Display: WorldPartition initialize took 12 ms (total: 3.10 sec)
+[2023.12.06-18.04.22:805][297]LogBlueprintUserMessages: [BP_Car_C_0] 410.910064
+[2023.12.06-18.04.22:813][297]LogStreaming: Display: UWorldPartitionLevelStreamingDynamic::RequestLevel(/Memory/UEDPIE_0_EIC1AO47M29YDPZL0H93CR1P4_LevelInstance_103) is flushing async loading
+[2023.12.06-18.04.22:813][297]LogStreaming: Display: FlushAsyncLoading(): 108 QueuedPackages, 7 AsyncPackages
+[2023.12.06-18.04.22:893][298]LogBlueprintUserMessages: [BP_Car_C_0] 400.190749
+[2023.12.06-18.04.22:920][299]LogBlueprintUserMessages: [BP_Car_C_0] 401.013012
+[2023.12.06-18.04.22:945][300]LogBlueprintUserMessages: [BP_Car_C_0] 400.72867
+[2023.12.06-18.04.22:971][301]LogBlueprintUserMessages: [BP_Car_C_0] 400.54879
+[2023.12.06-18.04.22:994][302]LogBlueprintUserMessages: [BP_Car_C_0] 400.429293
+[2023.12.06-18.04.23:021][303]LogBlueprintUserMessages: [BP_Car_C_0] 400.298714
+[2023.12.06-18.04.23:026][303]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2023.12.06-18.04.23:064][304]LogBlueprintUserMessages: [BP_Car_C_0] 400.221042
+[2023.12.06-18.04.23:090][305]LogBlueprintUserMessages: [BP_Car_C_0] 400.100885
+[2023.12.06-18.04.23:118][306]LogBlueprintUserMessages: [BP_Car_C_0] 400.093047
+[2023.12.06-18.04.23:144][307]LogBlueprintUserMessages: [BP_Car_C_0] 400.069627
+[2023.12.06-18.04.23:167][308]LogBlueprintUserMessages: [BP_Car_C_0] 400.055433
+[2023.12.06-18.04.23:187][309]LogBlueprintUserMessages: [BP_Car_C_0] 400.046876
+[2023.12.06-18.04.23:219][310]LogBlueprintUserMessages: [BP_Car_C_0] 400.030518
+[2023.12.06-18.04.23:241][311]LogBlueprintUserMessages: [BP_Car_C_0] 400.023126
+[2023.12.06-18.04.23:262][312]LogBlueprintUserMessages: [BP_Car_C_0] 400.018995
+[2023.12.06-18.04.23:282][313]LogBlueprintUserMessages: [BP_Car_C_0] 400.015774
+[2023.12.06-18.04.23:302][314]LogBlueprintUserMessages: [BP_Car_C_0] 400.012668
+[2023.12.06-18.04.23:322][315]LogBlueprintUserMessages: [BP_Car_C_0] 400.00995
+[2023.12.06-18.04.23:342][316]LogBlueprintUserMessages: [BP_Car_C_0] 400.008196
+[2023.12.06-18.04.23:363][317]LogBlueprintUserMessages: [BP_Car_C_0] 400.006254
+[2023.12.06-18.04.23:382][318]LogBlueprintUserMessages: [BP_Car_C_0] 400.005064
+[2023.12.06-18.04.23:398][319]LogBlueprintUserMessages: [BP_Car_C_0] 400.00423
+[2023.12.06-18.04.23:435][320]LogBlueprintUserMessages: [BP_Car_C_0] 400.003034
+[2023.12.06-18.04.23:458][321]LogBlueprintUserMessages: [BP_Car_C_0] 400.001575
+[2023.12.06-18.04.23:474][322]LogBlueprintUserMessages: [BP_Car_C_0] 400.001729
+[2023.12.06-18.04.23:490][323]LogBlueprintUserMessages: [BP_Car_C_0] 400.00145
+[2023.12.06-18.04.23:506][324]LogBlueprintUserMessages: [BP_Car_C_0] 400.001195
+[2023.12.06-18.04.23:526][325]LogBlueprintUserMessages: [BP_Car_C_0] 400.000936
+[2023.12.06-18.04.23:548][326]LogBlueprintUserMessages: [BP_Car_C_0] 400.000716
+[2023.12.06-18.04.23:572][327]LogBlueprintUserMessages: [BP_Car_C_0] 400.000538
+[2023.12.06-18.04.23:590][328]LogBlueprintUserMessages: [BP_Car_C_0] 400.000473
+[2023.12.06-18.04.23:608][329]LogBlueprintUserMessages: [BP_Car_C_0] 400.000401
+[2023.12.06-18.04.23:630][330]LogBlueprintUserMessages: [BP_Car_C_0] 400.000283
+[2023.12.06-18.04.23:653][331]LogBlueprintUserMessages: [BP_Car_C_0] 400.000213
+[2023.12.06-18.04.23:674][332]LogBlueprintUserMessages: [BP_Car_C_0] 400.00017
+[2023.12.06-18.04.23:692][333]LogBlueprintUserMessages: [BP_Car_C_0] 400.000149
+[2023.12.06-18.04.23:714][334]LogBlueprintUserMessages: [BP_Car_C_0] 400.00012
+[2023.12.06-18.04.23:736][335]LogBlueprintUserMessages: [BP_Car_C_0] 400.000094
+[2023.12.06-18.04.23:756][336]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:776][337]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:795][338]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:817][339]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:837][340]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:857][341]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:879][342]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:897][343]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:918][344]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:936][345]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:961][346]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.23:982][347]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:001][348]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:020][349]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:043][350]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:064][351]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:084][352]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:106][353]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:128][354]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:148][355]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:169][356]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:193][357]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:212][358]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:234][359]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:253][360]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:274][361]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:298][362]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:319][363]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:341][364]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:361][365]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:382][366]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:408][367]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:440][368]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:466][369]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:487][370]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:510][371]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:529][372]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:550][373]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:571][374]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:592][375]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:613][376]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:634][377]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:658][378]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:679][379]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:700][380]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:724][381]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:746][382]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:770][383]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:793][384]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:818][385]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:840][386]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:865][387]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:889][388]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:914][389]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:938][390]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:959][391]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.24:981][392]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:004][393]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:029][394]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:053][395]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:076][396]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:099][397]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:122][398]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:143][399]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:167][400]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:190][401]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:210][402]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:235][403]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:260][404]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:283][405]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:307][406]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:330][407]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:351][408]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:373][409]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:394][410]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:416][411]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:437][412]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:458][413]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:479][414]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:501][415]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:523][416]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:546][417]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:571][418]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:596][419]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:618][420]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:642][421]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:662][422]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:685][423]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:709][424]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:729][425]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:751][426]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:774][427]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:795][428]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:816][429]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:838][430]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:862][431]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:884][432]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:907][433]PIE: Error: Blueprint Runtime Error: "Attempted to access Spline via property Spline, but Spline is not valid (pending kill or garbage)". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP Civilian One Blueprint:  BP_CivilianOne
+[2023.12.06-18.04.25:907][433]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:929][434]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:949][435]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:972][436]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.25:994][437]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:014][438]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:036][439]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:060][440]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:081][441]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:105][442]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:127][443]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:148][444]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:172][445]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:193][446]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:213][447]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:236][448]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:261][449]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:282][450]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:304][451]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:327][452]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:348][453]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:371][454]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:394][455]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:416][456]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:438][457]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:459][458]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:479][459]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:500][460]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:524][461]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:548][462]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:570][463]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:594][464]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:616][465]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:637][466]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:660][467]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:680][468]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:702][469]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:724][470]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:745][471]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:764][472]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:787][473]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:808][474]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:827][475]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:849][476]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:869][477]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:888][478]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:911][479]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:933][480]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:955][481]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:976][482]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.26:996][483]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:018][484]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:040][485]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:060][486]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:080][487]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:105][488]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:126][489]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:148][490]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:168][491]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:191][492]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:213][493]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:237][494]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:257][495]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:278][496]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:298][497]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:322][498]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:343][499]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:364][500]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:384][501]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:405][502]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:426][503]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:447][504]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:467][505]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:490][506]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:511][507]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:533][508]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:557][509]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:580][510]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:602][511]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:624][512]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:645][513]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:666][514]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:687][515]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:710][516]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:729][517]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:751][518]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:773][519]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:795][520]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:816][521]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:836][522]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:858][523]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:878][524]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:899][525]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:922][526]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:944][527]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:964][528]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.27:985][529]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:006][530]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:026][531]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:050][532]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:072][533]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:092][534]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:113][535]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:134][536]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:157][537]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:178][538]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:197][539]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:218][540]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:243][541]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:264][542]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:284][543]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:307][544]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:329][545]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:349][546]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:370][547]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:393][548]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:412][549]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:432][550]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:455][551]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:475][552]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:494][553]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:517][554]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:538][555]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.28:560][556]PIE: Error: SetInputMode_GameAndUI expects a valid player controller as 'PlayerController' target
+[2023.12.06-18.04.28:561][556]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:305][701]PIE: Error: SetInputMode_GameOnly expects a valid player controller as 'PlayerController' target
+[2023.12.06-18.04.31:324][702]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:363][703]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:385][704]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:405][705]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:426][706]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:448][707]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:468][708]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:488][709]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:513][710]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:533][711]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:555][712]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:578][713]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:601][714]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:624][715]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:648][716]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:668][717]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:691][718]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:712][719]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:731][720]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:751][721]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:773][722]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:796][723]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:815][724]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:834][725]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:855][726]LogBlueprintUserMessages: [BP_Car_C_0] 400.0
+[2023.12.06-18.04.31:893][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-18.04.31:893][726]LogWorld: BeginTearingDown for /Game/Blueprints/Levels/UEDPIE_0_TestLevel2
+[2023.12.06-18.04.31:894][726]LogSlate: Window 'NoBrakesInSpace Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2023.12.06-18.04.31:906][726]LogWorld: UWorld::CleanupWorld for TestLevel2, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-18.04.31:909][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.04.31:912][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-18.04.31:921][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-18.04.31:943][726]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.06-18.04.31:943][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.06-18.04.31:944][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.06-18.04.31:968][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.12.06-18.04.32:305][727]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.12.06-18.04.32:325][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.12.06-18.04.33:745][807]LogSlate: Window 'Message Log' being destroyed
+[2023.12.06-18.04.33:755][807]LogSlate: Window 'Message Log' being destroyed
